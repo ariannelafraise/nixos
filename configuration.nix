@@ -18,6 +18,8 @@
 
   desktop = "hyprland"; # hyprland or gnome
 
+  programs.ssh.askPassword = ""; # to disable git asking for password using a gui instead of the terminal
+
   # Enable Flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 

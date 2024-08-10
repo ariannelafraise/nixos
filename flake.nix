@@ -10,18 +10,31 @@
     };
 
     hyprland.url = "github:hyprwm/Hyprland";
+
+    nvchad4nix = {
+      url = "github:NvChad/nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
-  outputs = { nixpkgs, home-manager, hyprland, ... }:
+  outputs = { nixpkgs, home-manager, hyprland, ... }@inputs:
     let
       system = "x86_64-linux";
       hostName = "kitaria";
+      specialArgs = { inherit system; inherit inputs; };
     in {
       nixosConfigurations = {
         ${hostName} = nixpkgs.lib.nixosSystem {
-          inherit system;
+          inherit specialArgs;
           modules = [
             ./configuration.nix
+            {
+              nixpkgs = {
+                overlays = [
+                  inputs.nvchad4nix.overlays.default
+                ];
+              };
+            }
             home-manager.nixosModules.home-manager
             {
               home-manager.useGlobalPkgs = true;

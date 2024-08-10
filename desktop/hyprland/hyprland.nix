@@ -36,6 +36,9 @@ in
     # app launcher
     rofi-wayland
 
+    # sound
+    wireplumber
+
     # network manager applet
     networkmanagerapplet
   ]);

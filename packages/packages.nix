@@ -13,6 +13,10 @@
     bat # cat alternative
     wget
     
+    ripgrep
+    xclip
+    nvchad
+
     discord
     spotify
     obsidian
@@ -23,5 +27,9 @@
     # for ntfs usb key
     fuse
     ntfs3g
+  ];
+
+  fonts.packages = with pkgs; [
+    (nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
 }
