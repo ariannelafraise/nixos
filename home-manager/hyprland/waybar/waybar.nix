@@ -53,11 +53,11 @@
             warning = 30;
             critical = 15;
           };
-          format = "bat {capacity}%";
-          "format-full" = "bat {capacity}%";
-          "format-charging" = "bat {capacity}%";
-          "format-plugged" = "bat {capacity}%";
-          "format-alt" = "bat {time}";
+          format = "battery {capacity}%";
+          "format-full" = "battery {capacity}%";
+          "format-charging" = "battery {capacity}%";
+          "format-plugged" = "battery {capacity}%";
+          "format-alt" = "battery {time}";
         };
 
         network = {
