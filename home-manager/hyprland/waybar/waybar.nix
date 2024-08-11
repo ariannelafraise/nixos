@@ -53,11 +53,11 @@
             warning = 30;
             critical = 15;
           };
-          format = "{capacity}%";
-          "format-full" = "{capacity}%";
-          "format-charging" = "{capacity}%";
-          "format-plugged" = "{capacity}%";
-          "format-alt" = "{time}";
+          format = "bat {capacity}%";
+          "format-full" = "bat {capacity}%";
+          "format-charging" = "bat {capacity}%";
+          "format-plugged" = "bat {capacity}%";
+          "format-alt" = "bat {time}";
         };
 
         network = {
@@ -70,8 +70,8 @@
         };
         
         wireplumber = {
-          "format" = "{volume}%";
-          "format-muted" = "muted";
+          "format" = "sound {volume}%";
+          "format-muted" = "sound muted";
         };
         #pulseaudio = {
          # format = "{volume}% {icon} {format_source}";
