@@ -7,6 +7,7 @@
 window#waybar {
     background-color: rgba(26, 19, 33, 1);
     color: #ffffff;
+    border-radius: 0px 0px 20px 20px;
 }
 
 
@@ -185,7 +186,7 @@ label:focus {
 
 #wireplumber {
     background-color: #291f33;
-    color: #000000;
+    color: #ffffff;
 }
 
 #wireplumber.muted {
@@ -215,7 +216,7 @@ label:focus {
 }
 
 #tray {
-    background-color: #2980b9;
+    background-color: #291f33;
 }
 
 #tray > .passive {
