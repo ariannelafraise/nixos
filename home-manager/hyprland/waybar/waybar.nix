@@ -8,7 +8,7 @@
     settings = [
       {
         layer = "top";
-        height = 60;
+        height = 40;
         spacing = 4;
 
         modules-left = [
