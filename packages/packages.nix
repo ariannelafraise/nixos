@@ -9,7 +9,7 @@
     tree
     htop
     git
-    vim
+    neovim
     bat # cat alternative
     wget
     
