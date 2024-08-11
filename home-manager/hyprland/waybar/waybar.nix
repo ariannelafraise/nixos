@@ -22,7 +22,8 @@
 
         modules-right = [
          # "pulseaudio"
-	  "network"
+	        "wireplumber"
+          "network"
           "cpu"
           "memory"
           "battery"
@@ -67,7 +68,11 @@
           "format-disconnected" = "Disconnected ⚠";
           "format-alt" = "{ifname}: {ipaddr}/{cidr}";
         };
-
+        
+        wireplumber = {
+          "format" = "{volume}%";
+          "format-muted" = "muted";
+        };
         #pulseaudio = {
          # format = "{volume}% {icon} {format_source}";
          # "format-bluetooth" = "{volume}% {icon} {format_source}";
