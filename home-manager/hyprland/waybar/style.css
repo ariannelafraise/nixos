@@ -72,8 +72,8 @@ button:hover {
 #power-profiles-daemon,
 #mpd {
     padding: 0 10px;
-    margin: 0px;
-    margin-top: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-bottom: 4px;
     color: #ffffff;
     border-radius: 15px;
