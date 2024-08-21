@@ -4,6 +4,9 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  # Docker
+  virtualisation.docker.enable = true;
+
   environment.systemPackages = with pkgs; [
     neofetch
     tree
