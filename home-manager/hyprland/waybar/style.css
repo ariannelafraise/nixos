@@ -9,10 +9,6 @@ window#waybar {
   border-radius: 10px;
 }
 
-#workspaces button {
-    padding: 0 5px;
-    background-color: transparent;
-}
 
 #clock,
 #battery,
