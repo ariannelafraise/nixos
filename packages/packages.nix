@@ -15,11 +15,15 @@
     neovim
     bat # cat alternative
     wget
+
+    # code
+    vscode
     
     ripgrep
     xclip
     nvchad
 
+    # apps
     discord
     spotify
     obsidian
