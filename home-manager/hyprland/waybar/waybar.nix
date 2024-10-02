@@ -8,8 +8,9 @@
     settings = [
       {
         layer = "top";
-        height = 50;
+        height = 40;
         spacing = 4;
+        margin = "5";
 
         modules-left = [
           "hyprland/workspaces"
@@ -24,8 +25,8 @@
          # "pulseaudio"
 	        "wireplumber"
           "network"
-          "cpu"
-          "memory"
+          #"cpu"
+          #"memory"
           "battery"
           "tray"
         ];

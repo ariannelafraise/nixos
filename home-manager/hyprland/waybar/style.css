@@ -5,9 +5,9 @@
 }
 
 window#waybar {
-    background-color: rgba(26, 19, 33, 1);
-    color: #ffffff;
-    border-radius: 0px 0px 7px 7px;
+  background-color: rgba(26, 19, 33, 0.5);
+  color: #ffffff;
+  border-radius: 10px;
 }
 
 
@@ -27,7 +27,7 @@ button:hover {
 
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
-    background-color: #a37800;
+    background-color: rgba(163, 120, 0, 0.8);
 }
 
 #workspaces button {
@@ -41,16 +41,16 @@ button:hover {
 }
 
 #workspaces button.focused {
-    background-color: #64727D;
+    background-color: rgba(100, 114, 125, 0.8);
     box-shadow: inset 0 -3px #ffffff;
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    background-color: rgba(235, 77, 75, 0.8);
 }
 
 #mode {
-    background-color: #64727D;
+    background-color: rgba(100, 114, 125, 0.8);
     box-shadow: inset 0 -3px #ffffff;
 }
 
@@ -71,12 +71,13 @@ button:hover {
 #scratchpad,
 #power-profiles-daemon,
 #mpd {
-    padding: 0 10px;
+    background-color: rgba(41, 31, 51, 0.3);
+    padding: 0 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-bottom: 10px;
     color: #ffffff;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 #window,
@@ -99,13 +100,13 @@ button:hover {
 }
 
 #battery {
-    background-color: #291f33;
+    /*background-color: #291f33;*/
     color: #ffffff;
 }
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
-    background-color: #26A65B;
+    background-color: rgba(131, 255, 117, 0.75);
 }
 
 @keyframes blink {
@@ -117,7 +118,7 @@ button:hover {
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
-    background-color: #f53c3c;
+    background-color: rgba(245, 60, 60, 0.8);
     color: #ffffff;
     animation-name: blink;
     animation-duration: 0.5s;
@@ -150,12 +151,11 @@ label:focus {
 }
 
 #cpu {
-    background-color: #291f33;
     color: #ffffff;
 }
 
 #memory {
-    background-color: #291f33;
+    /*background-color: #291f33;*/
 }
 
 #disk {
@@ -167,11 +167,11 @@ label:focus {
 }
 
 #network {
-    background-color: #291f33;
+    /*background-color: #291f33;*/
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
+    background-color: rgba(245, 60, 60, 0.8);
 }
 
 #pulseaudio {
@@ -185,7 +185,7 @@ label:focus {
 }
 
 #wireplumber {
-    background-color: #291f33;
+    /*background-color: #291f33;*/
     color: #ffffff;
 }
 
@@ -216,7 +216,8 @@ label:focus {
 }
 
 #tray {
-    background-color: #291f33;
+    /*background-color: #291f33;*/
+    margin-right: 10px;
 }
 
 #tray > .passive {

@@ -16,7 +16,7 @@
       # Autostart necesarry processes (notifications daemons, status bars, etc.)
       "exec-once" = [
         "swww init &" # Wallpaper daemon
-        "swww img ~/Wallpapers/blahaj.png &"
+        "swww img ~/Wallpapers/halloween-sonic.png &"
         "nm-applet --indicator &" # Networking manager applet
         "waybar &" # Bar
         "dunst" # Notifications daemon
@@ -33,10 +33,10 @@
 
       # Look and feel
       general = {
-        gaps_in = "10";
-        gaps_out = "30";
+        gaps_in = "5";
+        gaps_out = "5";
 
-        border_size = "3";
+        border_size = "2";
 
         "col.active_border" = "rgba(fa6bffee) rgba(88c0fcee) 45deg";
         "col.inactive_border" = "rgba(595959aa)";
@@ -59,7 +59,7 @@
 
 	blur = {
 	  enabled = "true";
-	  size = "3";
+	  size = "6";
 	  passes = "1";
 	  vibrancy = "0.1696";
 	};

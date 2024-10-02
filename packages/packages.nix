@@ -8,7 +8,7 @@
   virtualisation.docker.enable = true;
 
   environment.systemPackages = with pkgs; [
-    neofetch
+    hyfetch
     tree
     htop
     git
@@ -27,9 +27,15 @@
     
     brightnessctl
     
+    unzip
+    
     # for ntfs usb key
     fuse
     ntfs3g
+
+    # rootme
+    wireshark
+    exiftool
   ];
 
   fonts.packages = with pkgs; [
