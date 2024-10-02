@@ -3,12 +3,11 @@
 {
   programs.waybar = {
     enable = true;
-    # For style: add style = [{ <CONFIG> }];
     style = ./style.css;
     settings = [
       {
         layer = "top";
-        height = 40;
+        height = 44;
         spacing = 4;
         margin = "5";
 
@@ -74,24 +73,6 @@
           "format" = "sound {volume}%";
           "format-muted" = "sound muted";
         };
-        #pulseaudio = {
-         # format = "{volume}% {icon} {format_source}";
-         # "format-bluetooth" = "{volume}% {icon} {format_source}";
-         # "format-bluetooth-muted" = " {icon} {format_source}";
-         # "format-muted" = " {format_source}";
-         # "format-source" = "{volume}% ";
-         # "format-source-muted" = "";
-         # "format-icons" = {
-         #   headphone = "";
-          #  "hands-free" = "";
-           # headset = "";
-           # phone = "";
-           # portable = "";
-           # car = "";
-           # default = [ "" "" "" ];
-          #};
-         # "on-click" = "pavucontrol";
-        #};
       }
     ];
   };
