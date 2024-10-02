@@ -53,25 +53,25 @@
             warning = 30;
             critical = 15;
           };
-          format = "battery {capacity}%";
-          "format-full" = "battery {capacity}%";
-          "format-charging" = "battery {capacity}%";
-          "format-plugged" = "battery {capacity}%";
-          "format-alt" = "battery {time}";
+          format = "󰁹  {capacity}%";
+          "format-full" = "󱈏  {capacity}%";
+          "format-charging" = "󰂄  {capacity}%";
+          "format-plugged" = "󰂄  {capacity}%";
+          "format-alt" = "󰁹  {time}";
         };
 
         network = {
-          "format-wifi" = "{essid} ({signalStrength}%)";
-          "format-ethernet" = "{ipaddr}/{cidr}";
-          "tooltip-format" = "{ifname} via {gwaddr}";
-          "format-linked" = "{ifname} (No IP)";
-          "format-disconnected" = "Disconnected ⚠";
-          "format-alt" = "{ifname}: {ipaddr}/{cidr}";
+          "format-wifi" = "󰤨    {essid} ({signalStrength}%)";
+          "format-ethernet" = "󰁹    {ipaddr}/{cidr}";
+          "tooltip-format" = "󰤨    {ifname} via {gwaddr}";
+          "format-linked" = "󰤨    {ifname} (No IP)";
+          "format-disconnected" = "󰤭    ey branche moe";
+          "format-alt" = "󰤨    {ifname}: {ipaddr}/{cidr}";
         };
         
         wireplumber = {
-          "format" = "sound {volume}%";
-          "format-muted" = "sound muted";
+          "format" = "     {volume}%";
+          "format-muted" = "     muted";
         };
       }
     ];

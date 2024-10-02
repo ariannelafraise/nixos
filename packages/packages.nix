@@ -39,6 +39,7 @@
 
     # rootme
     wireshark
+    burpsuite
     exiftool
   ];
 

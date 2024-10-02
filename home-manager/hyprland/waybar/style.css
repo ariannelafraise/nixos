@@ -30,6 +30,10 @@ window#waybar {
     background: transparent;
 }
 
+#workspaces button {
+    color: #ffffff;
+}
+
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
     margin-left: 0;
@@ -41,12 +45,13 @@ window#waybar {
 }
 
 #clock {
+    font-size: 24px;
     background: transparent;
 }
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
-    background-color: rgba(131, 255, 117, 0.75);
+    background-color: rgba(131, 255, 117, 0.5);
 }
 
 @keyframes blink {
@@ -58,7 +63,7 @@ window#waybar {
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
-    background-color: rgba(245, 60, 60, 0.8);
+    background-color: rgba(245, 60, 60, 0.3);
     color: #ffffff;
     animation-name: blink;
     animation-duration: 0.5s;
@@ -67,164 +72,18 @@ window#waybar {
     animation-direction: alternate;
 }
 
-label:focus {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-#cpu {
-    color: #ffffff;
-}
-
-#memory {
-    /*background-color: #291f33;*/
-}
-
-#disk {
-    background-color: #964B00;
-}
-
-#backlight {
-    background-color: #90b1b1;
-}
-
-#network {
-    /*background-color: #291f33;*/
-}
-
 #network.disconnected {
-    background-color: rgba(245, 60, 60, 0.8);
-}
-
-#pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
-}
-
-#pulseaudio.muted {
-    background-color: #90b1b1;
-    color: #2a5c45;
-}
-
-#wireplumber {
-    /*background-color: #291f33;*/
-    color: #ffffff;
+    background-color: rgba(245, 60, 60, 0.3);
 }
 
 #wireplumber.muted {
-    background-color: #f53c3c;
-}
-
-#custom-media {
-    background-color: #66cc99;
-    color: #2a5c45;
-    min-width: 100px;
-}
-
-#custom-media.custom-spotify {
-    background-color: #66cc99;
-}
-
-#custom-media.custom-vlc {
-    background-color: #ffa000;
-}
-
-#temperature {
-    background-color: #f0932b;
+    background-color: rgba(245, 60, 60, 0.3);
 }
 
 #temperature.critical {
-    background-color: #eb4d4b;
+    background-color: rgba(245, 60, 60, 0.3);
 }
 
 #tray {
-    /*background-color: #291f33;*/
     margin-right: 10px;
-}
-
-#tray > .passive {
-    -gtk-icon-effect: dim;
-}
-
-#tray > .needs-attention {
-    -gtk-icon-effect: highlight;
-    background-color: #eb4d4b;
-}
-
-#idle_inhibitor {
-    background-color: #2d3436;
-}
-
-#idle_inhibitor.activated {
-    background-color: #ecf0f1;
-    color: #2d3436;
-}
-
-#mpd {
-    background-color: #66cc99;
-    color: #2a5c45;
-}
-
-#mpd.disconnected {
-    background-color: #f53c3c;
-}
-
-#mpd.stopped {
-    background-color: #90b1b1;
-}
-
-#mpd.paused {
-    background-color: #51a37a;
-}
-
-#language {
-    background: #00b093;
-    color: #740864;
-    padding: 0 5px;
-    margin: 0 5px;
-    min-width: 16px;
-}
-
-#keyboard-state {
-    background: #97e1ad;
-    color: #000000;
-    padding: 0 0px;
-    margin: 0 5px;
-    min-width: 16px;
-}
-
-#keyboard-state > label {
-    padding: 0 5px;
-}
-
-#keyboard-state > label.locked {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-#scratchpad {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-#scratchpad.empty {
-	background-color: transparent;
-}
-
-#privacy {
-    padding: 0;
-}
-
-#privacy-item {
-    padding: 0 5px;
-    color: white;
-}
-
-#privacy-item.screenshare {
-    background-color: #cf5700;
-}
-
-#privacy-item.audio-in {
-    background-color: #1ca000;
-}
-
-#privacy-item.audio-out {
-    background-color: #0069d4;
 }

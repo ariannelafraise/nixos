@@ -13,6 +13,9 @@ in
   };
 
   environment.systemPackages = lib.mkIf useHyprland (with pkgs; [
+    # lockscreen
+    hyprlock
+    
     # policy kit
     lxqt.lxqt-policykit
 
