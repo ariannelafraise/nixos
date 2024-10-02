@@ -5,8 +5,9 @@
 }
 
 window#waybar {
-  background-color: rgba(26, 19, 33, 0.5);
-  border-radius: 10px;
+    background-color: rgba(26, 19, 33, 0.5);
+    border-radius: 10px;
+    color: #ffffff;
 }
 
 #clock,
@@ -26,8 +27,7 @@ window#waybar {
 }
 
 #workspaces {
-    background: none;
-    color: #ffffff;
+    background: transparent;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
@@ -42,11 +42,6 @@ window#waybar {
 
 #clock {
     background: transparent;
-}
-
-#battery {
-    /*background-color: #291f33;*/
-    color: #ffffff;
 }
 
 #battery.charging, #battery.plugged {
@@ -72,27 +67,8 @@ window#waybar {
     animation-direction: alternate;
 }
 
-#power-profiles-daemon {
-    padding-right: 15px;
-}
-
-#power-profiles-daemon.performance {
-    background-color: #f53c3c;
-    color: #ffffff;
-}
-
-#power-profiles-daemon.balanced {
-    background-color: #2980b9;
-    color: #ffffff;
-}
-
-#power-profiles-daemon.power-saver {
-    background-color: #2ecc71;
-    color: #000000;
-}
-
 label:focus {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #cpu {
