@@ -38,6 +38,7 @@
     ntfs3g
 
     # rootme
+    gobuster
     wireshark
     burpsuite
     exiftool
