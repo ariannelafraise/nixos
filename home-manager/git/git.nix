@@ -7,4 +7,3 @@
     userEmail = "github@shield.paintilya.dev";
   };
 }
-# rawr
