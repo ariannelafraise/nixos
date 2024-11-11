@@ -17,22 +17,21 @@
         ];
 
         modules-center = [
-          "clock"
+          "battery"
         ];
 
         modules-right = [
-         # "pulseaudio"
-	        "wireplumber"
           "network"
+          "wireplumber"
           #"cpu"
           #"memory"
-          "battery"
+          "clock"
           "tray"
         ];
 
         clock = {
-          "tooltip-format" = "<big>{:%Y %B}</big>";
-          "format-alt" = "{:%Y-%m-%d}";
+          #"tooltip-format" = "<big>{:%B %Y}</big>";
+          "format-alt" = "{:%d/%m/%Y}";
         };
 
         tray = {

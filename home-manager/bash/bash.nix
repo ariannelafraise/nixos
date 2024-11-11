@@ -8,7 +8,7 @@
     shellAliases = {
       rebuild = "/etc/nixos/rebuild.sh";
       update-system-flake = "sudo nix flake update /etc/nixos";
-      uwu = "neofetch";
+      rawr = "hyfetch";
       patate-mount = "sudo mount /dev/sda1 /mnt/PATATE";
       patate-umount = "sudo umount /dev/sda1";
     };

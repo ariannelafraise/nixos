@@ -16,7 +16,7 @@
       # Autostart necesarry processes (notifications daemons, status bars, etc.)
       "exec-once" = [
         "swww init &" # Wallpaper daemon
-        "swww img ~/Wallpapers/halloween-sonic.png &"
+        "swww img ~/Wallpapers/space.png &"
         "nm-applet --indicator &" # Networking manager applet
         "waybar &" # Bar
         "dunst" # Notifications daemon
@@ -24,7 +24,7 @@
 
       # Environment variables
       env = [
-        "XCURSOR_SIZE,24 "
+        "XCURSOR_SIZE,24"
         "HYPRCURSOR_SIZE,24"
 		"XDG_CURRENT_DESKTOP,Hyprland"
 		"XDG_SESSION_TYPE,wayland"
@@ -43,14 +43,14 @@
 
 		resize_on_border = "true"; # enable drag&click on borders&gaps to resize
 
-		layout = "dwindle";
+		layout = "dwindle"; # or master
       };
 
       decoration = {
 		rounding = "10";
 
 		active_opacity = "1.0";
-		inactive_opacity = "0.9";
+		inactive_opacity = "0.8";
 
 		drop_shadow = "true";
 		shadow_range = "4";

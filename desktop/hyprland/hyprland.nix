@@ -22,12 +22,8 @@ in
     # screenshot
     grimblast
 
-    # sound
-    pipewire
-    pavucontrol # gui
-
     # terminal
-    kitty    
+    kitty
 
     # wallpaper daemon
     swww
@@ -41,6 +37,7 @@ in
 
     # sound
     wireplumber
+    pipewire
 
     # network manager applet
     networkmanagerapplet

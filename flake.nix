@@ -10,11 +10,6 @@
     };
 
     hyprland.url = "github:hyprwm/Hyprland";
-
-    nvchad4nix = {
-      url = "github:NvChad/nix";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
   };
 
   outputs = { nixpkgs, home-manager, hyprland, ... }@inputs:
@@ -28,13 +23,6 @@
           inherit specialArgs;
           modules = [
             ./configuration.nix
-            {
-              nixpkgs = {
-                overlays = [
-                  inputs.nvchad4nix.overlays.default
-                ];
-              };
-            }
             home-manager.nixosModules.home-manager
             {
               home-manager.useGlobalPkgs = true;

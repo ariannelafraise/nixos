@@ -44,8 +44,8 @@ window#waybar {
     margin-right: 0;
 }
 
-#clock {
-    font-size: 20px;
+#battery {
+    /*font-size: 20px;*/
     background: transparent;
 }
 

@@ -8,20 +8,22 @@
   virtualisation.docker.enable = true;
 
   environment.systemPackages = with pkgs; [
+    # terminal
     hyfetch
     tree
     htop
-    git
-    neovim
     bat # cat alternative
     wget
 
     # code
     vscode
-    
-    ripgrep
-    xclip
-    nvchad
+    git
+    vim
+
+    # inf111
+    #jetbrains.idea-ultimate
+    #zulu8
+    #oraclejdk8
 
     # apps
     discord
@@ -29,19 +31,25 @@
     obsidian
     brave
     
+    # utility
     brightnessctl
-    
+    ripgrep
+    xclip
     unzip
-    
     # for ntfs usb key
     fuse
     ntfs3g
 
-    # rootme
+    # cybersecurity
     gobuster
     wireshark
     burpsuite
     exiftool
+    nmap
+    john # john the ripper
+
+    # bluetooth
+    bluez
   ];
 
   fonts.packages = with pkgs; [
