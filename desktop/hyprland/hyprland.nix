@@ -13,7 +13,7 @@ in
   };
 
   environment.systemPackages = lib.mkIf useHyprland (with pkgs; [
-    # lockscreen
+    # lockscreen # rawr
     hyprlock
     
     # policy kit
