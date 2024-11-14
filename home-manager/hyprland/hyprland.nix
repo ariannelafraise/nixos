@@ -38,8 +38,8 @@
 
         border_size = "2";
 
-        "col.active_border" = "rgba(ffffffcc) rgba(ffffffcc) 45deg";
-        "col.inactive_border" = "rgba(000000aa)";
+        "col.active_border" = "rgba(ffffffbb) rgba(ffffffbb) 45deg";
+        "col.inactive_border" = "rgba(000000bb)";
 
 		resize_on_border = "true"; # enable drag&click on borders&gaps to resize
 
