@@ -1,6 +1,6 @@
 #!/bin/sh
 
-commitMessage="$(date +'%Y-%m-%d %H:%M:%S')"
+commitMessage="REBUILD - $(date +'%Y-%m-%d %H:%M:%S')"
 repoPath="/etc/nixos"
 
 sudo nixos-rebuild switch --flake $repoPath && \

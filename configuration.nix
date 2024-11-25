@@ -12,7 +12,6 @@
       ./packages/packages.nix
       ./services/services.nix
       ./users/arianne.nix
-
       ./custom-options.nix
     ];
 
