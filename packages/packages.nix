@@ -20,14 +20,9 @@
     git
     vim
 
-    # inf111
-    #jetbrains.idea-ultimate
-    #zulu8
-    #oraclejdk8
-
     # apps
     discord
-    spotify
+    #spotify
     obsidian
     brave
     
@@ -41,15 +36,15 @@
     ntfs3g
 
     # cybersecurity
-    gobuster
-    wireshark
-    burpsuite
-    exiftool
-    nmap
-    john # john the ripper
+    #gobuster
+    #wireshark
+    #burpsuite
+    #exiftool
+    #nmap
+    #john # john the ripper
 
     # bluetooth
-    bluez
+    #bluez
   ];
 
   fonts.packages = with pkgs; [
