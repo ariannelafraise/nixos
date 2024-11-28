@@ -22,7 +22,7 @@
 
     # apps
     discord
-    #spotify
+    spotify
     obsidian
     brave
     
