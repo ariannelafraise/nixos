@@ -76,7 +76,6 @@ window#waybar {
 
 #wireplumber.muted {
     background-color: rgba(245, 60, 60, 0.0);
-    color: rgba(245, 60, 60, 1);
 }
 
 #temperature.critical {
