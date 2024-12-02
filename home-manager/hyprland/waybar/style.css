@@ -30,6 +30,10 @@ window#waybar {
     background: transparent;
 }
 
+#workspaces button {
+    color: #5ba367;
+}
+
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
     margin-left: 0;
