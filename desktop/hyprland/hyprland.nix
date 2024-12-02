@@ -10,7 +10,7 @@ in
     };
     displayManager.sddm = {
       enable = true;
-      theme = "${pkgs.where-is-my-sddm-theme}";
+      theme = "${pkgs.sddm-chili-theme}";
     };
   };
 
