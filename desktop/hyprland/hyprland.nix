@@ -10,7 +10,7 @@ in
     };
     displayManager.sddm = {
       enable = true;
-      theme = "where-is-my-sddm-theme";
+      theme = "where_is_my_sddm_theme";
     };
   };
 
