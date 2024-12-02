@@ -8,10 +8,10 @@ in
       enable = true;
       #displayManager.gdm.enable = true;
     };
-   # displayManager.sddm = {
-    #  enable = true;
-      #theme = "where_is_my_sddm_theme";
-    #};
+    displayManager.sddm = {
+      enable = true;
+      theme = "where-is-my-sddm-theme";
+    };
   };
 
   programs.hyprland = lib.mkIf useHyprland {
