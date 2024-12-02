@@ -13,7 +13,7 @@
       patate-umount = "sudo umount /dev/sda1";
     };
     bashrcExtra = ''
-      export PS1="\[\033[38;2;255;105;180m\]\u@\h:\w\$ \[\033[0m\]"
+      export PS1="\[\033[38;2;254;214;214m\]\u@\h:\w\$ \[\033[0m\]"
     '';
   };
 }
