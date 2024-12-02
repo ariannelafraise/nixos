@@ -7,7 +7,7 @@
 window#waybar {
     background-color: rgb(254, 214, 214);
     border-radius: 0px;
-    color: #EEA9C4;
+    color: #d698af;
 }
 
 #clock,
@@ -19,7 +19,7 @@ window#waybar {
 #tray,
 #workspaces
 {
-    color: #EEA9C4;
+    color: #d698af;
     background-color: rgba(41, 31, 51, 0.0);
     padding: 0 20px;
     margin: 10px 0px 10px 0px;
@@ -31,7 +31,7 @@ window#waybar {
 }
 
 #workspaces button {
-    color: #EEA9C4;
+    color: #d698af;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
