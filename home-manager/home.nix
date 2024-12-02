@@ -13,8 +13,8 @@
   home.pointerCursor = {
     x11.enable = true;
     size = 40;
-    package = pkgs.whitesur-cursors;
-    name = "whitesur-cursors";
+    package = pkgs.capitaine-cursors;
+    name = "capitaine-cursors";
   };
 
   home.stateVersion = "24.05";
