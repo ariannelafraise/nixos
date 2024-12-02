@@ -11,7 +11,6 @@
   ];
 
   home.pointerCursor = {
-    x11.enable = true;
     size = 40;
     package = pkgs.capitaine-cursors;
     name = "capitaine-cursors";
