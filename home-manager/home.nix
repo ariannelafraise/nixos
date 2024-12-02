@@ -23,8 +23,8 @@
   };
 
   home.file."vencordtheme" = {
-    source = ./vencord/themes/lilypichu.theme.css;
-    target = ".config/vesktop/themes/lilypichu.theme.css";
+    source = ./vencord/themes;
+    target = ".config/vesktop/themes";
     recursive = true;
     force = true;
   };
