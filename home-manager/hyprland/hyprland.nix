@@ -24,7 +24,7 @@
 
       # Environment variables
       env = [
-        "XCURSOR_SIZE,24"
+        "XCURSOR_SIZE,32"
         "HYPRCURSOR_SIZE,32"
 		"XDG_CURRENT_DESKTOP,Hyprland"
 		"XDG_SESSION_TYPE,wayland"
