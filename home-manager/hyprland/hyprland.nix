@@ -20,13 +20,12 @@
         "nm-applet --indicator &" # Networking manager applet
         "waybar &" # Bar
         "dunst" # Notifications daemon
+		"hyprctl setcursor Bibata-Modern-Ice 24"
       ];
 
       # Environment variables
       env = [
         "XCURSOR_SIZE,24"
-		"XCURSOR_THEME,Bibata-Modern-Ice"
-		"HYPRCURSOR_THEME,Bibata-Modern-Ice"
         "HYPRCURSOR_SIZE,24"
 		"XDG_CURRENT_DESKTOP,Hyprland"
 		"XDG_SESSION_TYPE,wayland"
