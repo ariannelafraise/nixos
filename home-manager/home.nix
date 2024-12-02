@@ -10,13 +10,11 @@
     ./git/git.nix
   ];
 
-  xsession = {
-    enable = true;
-    pointerCursor = {
-      size = 40;
-      package = pkgs.whitesur-cursors;
-      name = "Vimix-white-cursors";
-    };
+  home.pointerCursor = {
+    x11.enable = true;
+    size = 40;
+    package = pkgs.whitesur-cursors;
+    name = "whitesur-cursors";
   };
 
   home.stateVersion = "24.05";
