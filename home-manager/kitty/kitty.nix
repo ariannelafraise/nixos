@@ -9,7 +9,7 @@
           	font_family FiraCode Nerd Font Mono
 	        scrollback_size 10000
           	background_opacity 0.8
-          	background #514242
+          	background #3f3333
 	        foreground #d9e6f2
 	        cursor #d9e6f2
 	        cursor_shape beam
