@@ -9,7 +9,7 @@
         layer = "top";
         height = 44;
         spacing = 4;
-        margin = "5";
+        margin = "0";
 
         modules-left = [
           "hyprland/workspaces"

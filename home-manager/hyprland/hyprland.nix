@@ -7,7 +7,7 @@
       # Monitor(s)
       monitor = "eDP-1,1920x1080@60,0x0,1";
 
-      # Programs
+      # Programss
       "$monitorBrightness" = "sh /home/arianne/BashDisplayBrightness/brightness.sh";
       "$terminal" = "kitty";
       "$fileManager" = "dolphin";
