@@ -12,8 +12,7 @@
 
   home.pointerCursor = {
     gtk.enable = true;
-    x11.enable = true;
-    size = 40;
+    size = 100;
     package = pkgs.whitesur-cursors;
     name = "Whitesur";
   };
