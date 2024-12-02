@@ -5,7 +5,8 @@ in
 {
   services.xserver = lib.mkIf useHyprland {
     enable = true;
-    displayManager.gdm.enable = true;
+    #displayManager.gdm.enable = true;
+    displayManager.sddm.enable = true;
   };
 
   programs.hyprland = lib.mkIf useHyprland {
