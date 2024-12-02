@@ -3,9 +3,11 @@ let
   useHyprland = config.desktop == "hyprland";
 in
 {
-  services.xserver = lib.mkIf useHyprland {
-    enable = true;
-    #displayManager.gdm.enable = true;
+  services = lib.mkIf useHyprland {
+    xserver = {
+      enable = true;
+      #displayManager.gdm.enable = true;
+    };
     displayManager.sddm.enable = true;
   };
 
