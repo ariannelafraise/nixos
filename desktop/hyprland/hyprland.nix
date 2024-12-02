@@ -8,7 +8,11 @@ in
       enable = true;
       #displayManager.gdm.enable = true;
     };
-    displayManager.sddm.enable = true;
+    displayManager.sddm = {
+      enable = true;
+      theme = "where_is_my_sddm_theme";
+
+    };
   };
 
   programs.hyprland = lib.mkIf useHyprland {
@@ -16,6 +20,9 @@ in
   };
 
   environment.systemPackages = lib.mkIf useHyprland (with pkgs; [
+    # sddm theme
+    where-is-my-sddm-theme
+
     # lockscreen
     hyprlock
     
