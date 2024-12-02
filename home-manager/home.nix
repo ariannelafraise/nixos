@@ -22,5 +22,12 @@
     };
   };
 
+  home.file."vencordtheme" = {
+    source = ./vencord/themes/lilypichu.theme.css;
+    target = ".config/vesktop/themes/lilypichu.theme.css";
+    recursive = true;
+    force = true;
+  };
+
   home.stateVersion = "24.05";
 }
