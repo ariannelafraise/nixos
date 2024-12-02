@@ -22,6 +22,7 @@
 
     # apps
     discord
+    vencord
     spotify
     obsidian
     brave
