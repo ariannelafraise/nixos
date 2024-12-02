@@ -11,9 +11,10 @@
   ];
 
   home.pointerCursor = {
+    
     size = 40;
-    package = pkgs.capitaine-cursors;
-    name = "capitaine-cursors";
+    package = pkgs.whitesur-cursors;
+    name = "Whitesur";
   };
 
   home.stateVersion = "24.05";
