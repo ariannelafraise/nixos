@@ -13,7 +13,7 @@
 	        foreground #d9e6f2
 	        cursor #d9e6f2
 	        cursor_shape beam
-	        selection_background #a08686
+	        selection_background #a2c2f2
 	        color0 #000000
 	        color8 #323232
 	        color1 #c37272
