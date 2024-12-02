@@ -5,8 +5,8 @@
 }
 
 window#waybar {
-    background-color: rgb(169, 238, 255);
-    /*border-radius: 10px;*/
+    background-color: rgb(136, 231, 255);
+    border-radius: 0px;
     color: #ffffff;
 }
 
