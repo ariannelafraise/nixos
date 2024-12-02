@@ -22,7 +22,7 @@
 
     # apps
     discord
-    vencord
+    vesktop
     spotify
     obsidian
     brave
