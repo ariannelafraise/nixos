@@ -10,7 +10,14 @@
     ./git/git.nix
   ];
 
-  gtk.cursorTheme = pkgs.whitesur-cursors;
+  xsession = {
+    enable = true;
+    pointerCursor = {
+      size = 40;
+      package = pkgs.whitesur-cursors;
+      name = "Vimix-white-cursors";
+    };
+  };
 
   home.stateVersion = "24.05";
 }
