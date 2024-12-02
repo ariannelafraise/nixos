@@ -10,11 +10,12 @@
     ./git/git.nix
   ];
 
-  home.pointerCursor = {
-    gtk.enable = true;
-    size = 100;
-    package = pkgs.whitesur-cursors;
-    name = "Whitesur";
+  gtk = {
+    enable = true;
+    cursorTheme = {
+      package = pkgs.whitesur-cursors;
+      name= "uwu";
+    };
   };
 
   home.stateVersion = "24.05";
