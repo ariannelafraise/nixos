@@ -41,6 +41,9 @@ in
 
     # network manager applet
     networkmanagerapplet
+
+    # cursor
+    whitesur-cursors
   ]);
 
   xdg.portal = lib.mkIf useHyprland {
