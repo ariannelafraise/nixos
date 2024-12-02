@@ -10,7 +10,7 @@ in
     };
     displayManager.sddm = {
       enable = true;
-      theme = "${pkgs.sddm-chili-theme}";
+      theme = "where-is-my-sddm-theme";
     };
   };
 
@@ -19,6 +19,9 @@ in
   };
 
   environment.systemPackages = lib.mkIf useHyprland (with pkgs; [
+    # sddm theme
+    where-is-my-sddm-theme
+    
     # lockscreen
     hyprlock
     
