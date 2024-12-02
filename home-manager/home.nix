@@ -14,7 +14,7 @@
     enable = true;
     cursorTheme = {
       package = pkgs.whitesur-cursors;
-      name= "uwu";
+      name= "Whitesur";
     };
   };
 
