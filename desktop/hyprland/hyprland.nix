@@ -6,7 +6,7 @@ in
   services = lib.mkIf useHyprland {
     xserver = {
       enable = true;
-      #displayManager.gdm.enable = true;
+      displayManager.gdm.enable = true;
     };
     #displayManager.sddm = {
      # enable = true;
