@@ -21,7 +21,6 @@
     vim
 
     # apps
-    discord
     vesktop
     spotify
     obsidian
