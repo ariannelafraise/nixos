@@ -6,6 +6,7 @@
 
 window#waybar {
     background: none;
+    border: none;
     color: #ffffff;
 }
 
