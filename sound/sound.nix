@@ -5,7 +5,7 @@
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;
-    alsa.enable = false;
+    alsa.enable = true;
     pulse.enable = false;
     #jack.enable = false;
   };
