@@ -4,9 +4,9 @@
   # OR
   security.rtkit.enable = true;
   services.pipewire = {
-    enable = false;
-    alsa.enable = false;
-    pulse.enable = false;
+    enable = true;
+    alsa.enable = true;
+    pulse.enable = true;
     #jack.enable = false;
   };
 

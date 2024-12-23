@@ -16,7 +16,7 @@
       # Autostart necesarry processes (notifications daemons, status bars, etc.)
       "exec-once" = [
         "swww init &" # Wallpaper daemon
-        "swww img ~/Wallpapers/space.png &"
+        "swww img ~/Wallpapers/update.png &"
         "nm-applet --indicator &" # Networking manager applet
         "waybar &" # Bar
         "dunst" # Notifications daemon
